@@ -1,15 +1,18 @@
 {
-    "id": "magnificent-management-tools",
-    "title": "Misha's Magnificent Management Tools - An Accessibility FVTT Module",
-    "description": "A small module to improve accessibility in FoundryVTT. Enabling easier organization of entities.",
-    "authors": [
-      {
-      "name": "Misha"
-      }
-    ],
-    "version": "1.0.0",
-    "compatibility": {
-      "minimum": "11",
-      "verified": "11"
+  "id": "Magnificent-Management-Tools-FoundryVTT",
+  "title": "Misha's Magnificent Management Tools - An Accessibility FVTT Module",
+  "description": "A small module to improve accessibility in FoundryVTT. Enabling easier organization of entities.",
+  "authors": [
+    {
+    "name": "Misha"
     }
-  }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": [
+    "scripts/context-menu-additions.js"
+  ]
+}
